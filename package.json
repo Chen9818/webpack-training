@@ -1,0 +1,24 @@
+{
+  "name": "wbbpack",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start":"webpack-dev-server --open"
+  },
+  "author": "chen",
+  "license": "ISC",
+  "dependencies": {
+    "css-loader": "^6.2.0",
+    "node-sass": "^6.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.2.1",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.0.0"
+  }
+}
